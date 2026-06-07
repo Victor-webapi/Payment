@@ -1,2 +1,2 @@
-# Payment
+# Payment API
 Mastering payment integration with the help of Stripe API
