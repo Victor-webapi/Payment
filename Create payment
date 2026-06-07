@@ -8,3 +8,17 @@ if montant >= 100:
 else:
      print("Paiement refusé")
      print("Montant minimum : 100 €")
+
+
+def greet_customer():
+    print("Stripe-like system ready")
+    print("Waiting for payments...")
+
+greet_customer()
+
+def show_payment(client, amount):
+    print("Client:", client)
+    print("Amount:", amount, "€")
+
+show_payment("Thomas", 150)
+show_payment("Anna", 200)
