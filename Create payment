@@ -1,0 +1,10 @@
+nom_client = input("Nom du client: ")
+montant = int(input("Montant (€) : "))
+
+if montant >= 100:
+    print("Paiement accepté")
+    print("Client : ", nom_client, "a payé", montant, "€")
+
+else:
+     print("Paiement refusé")
+     print("Montant minimum : 100 €")
